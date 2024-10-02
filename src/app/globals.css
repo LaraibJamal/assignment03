@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.parent{
+  display: flex;
+  /* background-color: aqua; */
+  /* margin-top: 2px; */
+  height: 565px;
+}
+
+.child1{
+  width: fit-content;
+  height: 490px;
+  margin: 40px;
+  font-size: 80px;
+  font-weight: 900;
+  background-color: bisque;
+  border-color: purple;
+  
+}
+
+.child2{
+  /* background-color: blue; */
+  height: 490px;
+  position: absolute;
+  right: 0;
+  margin-right: 50px;
+  margin-top: 90px;
+  width: 350px;
+}
+
+.color{
+color: purple;
+}
+
+.header{
+  background-color: purple
+   
+}
+
+.header-button{
+  margin-left: 15px;
+  display: flex; /*sab vertically araha tha usko eik line may krny kay liye use flex */
+  justify-content:space-evenly;
+  padding: 5px;
+  font-size: large;
+  align-items: center;
+  color: white;
+  font-weight: 100;
+  /* gap: 10px; */
+  
+}
+
+.foooter{
+  background-color: purple;
+  font-size: large; 
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 5px;
+}
+
